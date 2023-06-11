@@ -1,0 +1,129 @@
+CRITICAL - 2023-06-07 04:38:23 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\AsistenController.php(22): view('profil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+CRITICAL - 2023-06-07 05:09:46 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 10.
+ 1 APPPATH\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Views\\layout\\template.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/asisten/simpan', [], true)
+ 6 APPPATH\Controllers\AsistenController.php(30): view('/asisten/simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+CRITICAL - 2023-06-07 05:11:05 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 10.
+ 1 APPPATH\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Views\\layout\\template.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/asisten/simpan', [], true)
+ 6 APPPATH\Controllers\AsistenController.php(30): view('/asisten/simpan')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+CRITICAL - 2023-06-07 05:14:47 --> Invalid file: "../layout/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('../layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/asisten/simpan', [], true)
+ 4 APPPATH\Controllers\AsistenController.php(35): view('/asisten/simpan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+CRITICAL - 2023-06-07 05:16:26 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\asisten\simpan.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/asisten/simpan', [], true)
+ 4 APPPATH\Controllers\AsistenController.php(35): view('/asisten/simpan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+CRITICAL - 2023-06-07 07:03:42 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 67.
+ 1 APPPATH\Config\Routes.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Config\\Routes.php', 67)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+CRITICAL - 2023-06-07 07:03:44 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 67.
+ 1 APPPATH\Config\Routes.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Config\\Routes.php', 67)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
+INFO - 2023-06-07 07:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-07 08:14:21 --> mysqli_sql_exception: Duplicate entry '215314107' for key 'PRIMARY' in C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\app\Models\AsistenModel.php(30): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\app\Controllers\AsistenController.php(44): App\Models\AsistenModel->simpan(Array)
+#10 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+#11 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+#12 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\LENOVO\Desktop\Platform\Project-Asisten\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO...')
+#15 {main}
+CRITICAL - 2023-06-07 08:14:21 --> Duplicate entry '215314107' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'2153141071\', \'Jean Paul Denata\', \'SDNL\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'2153141071\', \'Jean Paul Denata\', \'SDNL\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'2153141071\', \'Jean Paul Denata\', \'SDNL\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim.1:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\AsistenModel.php(30): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenController.php(44): App\Models\AsistenModel->simpan([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenController->simpan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Desktop\\Platform\\Project-Asisten\\public\\index.php')
