@@ -1,5 +1,7 @@
 # CodeIgniter 4 Application Starter
 
+Created by : Jean Paul Denata (215314107)
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
