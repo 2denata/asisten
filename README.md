@@ -3,7 +3,7 @@
 
 # Introduction
 
-“Assistant” is an information system project regarding Lecturer Practicum Assistant data in lectures at Sanata Dharma University. This application is a website created using the CodeIgniter 4 framework with the PHP back-end programming language. The main purpose is to perform CRUD (Create, Read, Update, Delete) on data.
+“Asisten” is an information system project regarding Lecturer Practicum Assistant data in lectures at Sanata Dharma University. This application is a website created using the CodeIgniter 4 framework with the PHP back-end programming language. The main purpose is to perform CRUD (Create, Read, Update, Delete) on data.
 
 Instead of using traditional programming that only uses HTML, PHP, and CSS, we use the Model, View, and Controller approach which makes it easier for long-term application development, by separating the Backend and Frontend using Controllers, development will be more efficient.
 # Library 
